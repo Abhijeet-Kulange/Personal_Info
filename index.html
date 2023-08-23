@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfplio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0fc06ff9c5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">cantact us</a></li>
+                    <i class="fa-solid fa-xmark fas" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
+
+            </nav>
+            <div class="headertext">
+                <p>UI/UX Designer</p>
+                <h1>Hi,I'm <span>Abhijeet</span> <br>Kulange From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- about section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/alandi_abhi_photo.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis saepe asperiores obcaecati facere
+                        cum deserunt voluptas. Nisi iste iure soluta ullam rerum necessitatibus minima vero, velit
+                        asperiores. Temporibus voluptate excepturi animi consequuntur quia, architecto impedit vero
+                        odit, unde aspernatur neque nesciunt asperiores sapiente nulla in iste repellendus id similique
+                        dolore, reiciendis accusantium atque? Explicabo iure aspe, voluptatem fugiat!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links , active-links" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Android ios apps</li>
+                            <li><span>Programming Language</span><br>CPP</li>
+                            <li><span>Python</span><br>Advanced python like (numpy,pandas,scipy)</li>
+                            <li><span>DBMS</span><br>SQL</li>
+                            <li><span>DBMS</span><br>MongoDB</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2022-23</span><br>hospital bed management system (project)</li>
+                            <li><span>2023-24</span><br>learning CPP DSA</li>
+                            <li><span>App Development</span><br>Android ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>SSE</span><br>Savitribai phule pune univarsity (85.60)</li>
+                            <li><span>HSE</span><br>Savitribai phule pune univarsity (88.40)</li>
+                            <li><span>FY BTech</span><br>9.64 CGPA JSPM's RSCOE TATHAWADE</li>
+                            <li><span>SY BTech</span><br>9.54 CGPA JSPM's RSCOE TATHAWADE</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic saepe dolorum perspiciatis
+                        doloremque labore fugit eos quasi consectetur omnis laboriosam.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic saepe dolorum perspiciatis
+                        doloremque labore fugit eos quasi consectetur omnis laboriosam.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic saepe dolorum perspiciatis
+                        doloremque labore fugit eos quasi consectetur omnis laboriosam.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work1.png" alt="   ">
+                    <div class="layer">
+                        <h3>Social Media</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate iste nostrum dolores
+                            provident numquam distinctio deserunt possimus aperiam sunt libero.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work11.jpg" alt="   ">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate iste nostrum dolores
+                            provident numquam distinctio deserunt possimus aperiam sunt libero.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work22.jpg" alt="   ">
+                    <div class="layer">
+                        <h3>Online Shoping App</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate iste nostrum dolores
+                            provident numquam distinctio deserunt possimus aperiam sunt libero.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- contact  -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>abhikkulange19@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>9822441464</p>
+                    <div class="social-icon">
+                        <a href="https://facbook.com"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/12th leaving certificate abhi (1).pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Enter name" required>
+                        <input type="email" name="email" placeholder="your email" required>
+                        <textarea name="message" rows="6" placeholder="your message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright Abhijeet.This is first personal info. <i class="fa-solid fa-heart"></i> website</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            // for color
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-links");
+            }
+            // for data
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            // for color
+            event.currentTarget.classList.add("active-links");
+            // for data
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemen = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemen.style.right = "0";
+        }
+        function closemenu() {
+            sidemen.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwCBJ1tkqHKPwrczOve3ynrLIjYGpjFwynuw5tmWWJ448M8yfebRgZFxPpyJl9_04Vq/exec'
+        const form = document.forms['submit-to-google-sheet']
+const msg=document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML="Message sent Successfully"
+                    setTimeout(function(){
+                        msg.innerHTML=""
+                    },3000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
